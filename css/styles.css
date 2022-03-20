@@ -1,0 +1,33 @@
+*{
+    background-color: antiquewhite;
+}
+.navigation{
+    display: flex;
+    padding: 2%;
+}
+nav ul{
+    display: flex;    
+}
+nav a{
+    text-decoration: none;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+.navbar{
+    margin-left: 30%;
+}
+.navbutton button{ 
+    margin-left: 0%;
+    /* padding: 30%; */
+}
+#top-btn{
+    margin-left: 300px;
+    padding: 15px;
+    border-radius: 70px;
+   
+}
