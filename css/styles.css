@@ -1,9 +1,14 @@
 *{
-    background-color: antiquewhite;
+    background-color: E2DCDC;
 }
 .navigation{
     display: flex;
     padding: 2%;
+}
+.navigation span{
+    color: #D31B27;
+    font-weight: bold;
+    font-size: xx-large;
 }
 nav ul{
     display: flex;    
@@ -24,10 +29,22 @@ nav a{
 .navbutton button{ 
     margin-left: 0%;
     /* padding: 30%; */
+    background-color: #D31B27;
 }
 #top-btn{
     margin-left: 300px;
     padding: 15px;
     border-radius: 70px;
    
+}
+.top-page{
+    display: flex;
+}
+#top-image{
+    margin-left: 30%;
+   
+}
+#top-image img{
+    height: 70vh;
+    border-radius: 30px;
 }
