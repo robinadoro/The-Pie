@@ -35,16 +35,46 @@ nav a{
     margin-left: 300px;
     padding: 15px;
     border-radius: 70px;
+    border: none;
+
    
 }
 .top-page{
     display: flex;
 }
 #top-image{
-    margin-left: 30%;
+    margin-left: 10%;
+    border: 1px solid;
+    border: none;
    
 }
 #top-image img{
     height: 70vh;
     border-radius: 30px;
+
+}
+.top-text{
+    /* padding: 5%; */
+    border: 1px solid;
+    border: none;
+    margin-left: 10%;
+    padding-top: 10%;
+   font-size: x-large;
+}
+.top-text span{
+    color: #D31B27;
+    font-weight: bold;    
+}
+#order-now{ 
+    margin-left: 0%;
+    /* padding: 30%; */
+    background-color: #D31B27;
+}
+.top-text button{
+    /* margin-left: 300px; */
+    padding: 15px;
+    border-radius: 70px;
+    border: none;
+  
+   
 }
