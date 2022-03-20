@@ -98,15 +98,25 @@ article h1{
     padding-top: 10%;
     font-weight: bolder;
 }
-/* aside{
-    
-    width: 35%;
-    border: 1px solid brown;
-    border: none;
-} */
 aside{
     border: 1px solid;
     border: none;
     width: 35%;
     padding: 5%;
+}
+.card{
+    border: none;
+    margin-right: 3%;
+    
+}
+.card img{
+    border-radius: 250px;
+}
+.card-title{
+    font-weight: bolder;
+}
+.menu h1{
+    text-align: center;
+    padding: 3%;
+    font-weight: bolder;
 }
