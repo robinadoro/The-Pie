@@ -41,6 +41,7 @@ nav a{
 }
 .top-page{
     display: flex;
+    margin-bottom: 2%;
 }
 #top-image{
     margin-left: 10%;
@@ -75,6 +76,37 @@ nav a{
     padding: 15px;
     border-radius: 70px;
     border: none;
-  
-   
+    
+}
+main {
+    display: flex;
+}
+article{
+    background-image: url("../img/about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 50vh;
+    width: 65%;
+    text-align: center;
+    color: white;
+
+    
+    
+}
+article h1{
+    padding-top: 10%;
+    font-weight: bolder;
+}
+/* aside{
+    
+    width: 35%;
+    border: 1px solid brown;
+    border: none;
+} */
+aside{
+    border: 1px solid;
+    border: none;
+    width: 35%;
+    padding: 5%;
 }
