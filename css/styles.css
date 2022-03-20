@@ -120,3 +120,10 @@ aside{
     padding: 3%;
     font-weight: bolder;
 }
+small{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 13%;
+    border: none;
+}
