@@ -18,5 +18,16 @@ $document.ready(function(){
         function number (){
             var pizzaNumber= document.getElementById("number").value;
         }
+
+    // object to get user form data
+    function UserOrder(flavour, size, crust, toppings, number){
+        this.newFlavour = flavour;
+        this.newSize= size;
+        this.newCrust= crust;
+        this.newToppings= toppings;
+        this.newNumber= number;
+    }
+
+
     })
 })
