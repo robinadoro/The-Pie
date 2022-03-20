@@ -127,3 +127,23 @@ small{
     margin-left: 13%;
     border: none;
 }
+.order{
+    text-align: center;
+    color: white;
+    padding-top: 3%;
+    border-top: 5px solid;
+    border-radius: 30px;
+    background-color: #2A2827;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 70vh;
+}
+.order label{
+    padding-bottom: 1%;
+    padding-top: 2%;
+
+}
+.form-select{
+    width: 30%;
+    margin-left: 35%;   
+}
