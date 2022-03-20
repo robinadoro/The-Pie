@@ -179,6 +179,50 @@ small{
     padding: 15px;
     border-radius: 70px;
     border: none; 
+    margin-bottom: 2%;
 }
-
-
+.contact{
+    text-align: center;
+    display: flex;
+    padding: 2%;
+    border: 1px solid;
+    background-color: #2A2827;
+    color: white;
+}
+.contact h2{
+    margin-bottom: 10%;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    margin-left:20%;
+}
+.contact form input{
+    width: 70%;
+    padding: 1%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    /* margin-top: 3%; */
+    /* padding-top: 2%; */
+}
+.contact form textarea{
+    width: 70%;
+    padding: 1%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.contact form button{
+    margin-left: 15%;
+    /* background-color: #D31B27; */
+    padding: 15px;
+    border-radius: 70px;
+    border: none; 
+    margin-bottom: 2%;
+    width:40%;
+}
+#contact-msg{
+    padding-top: 5%;
+    padding: 7%;
+    background-color: #2A2827;
+    border-radius: 40px;
+}
