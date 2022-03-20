@@ -49,10 +49,11 @@ Not currently known of. Open to project improvement suggestions.
 - An access to the Internet
 
 ## Live Site
-Available here: ()
+[Available here: ](https://robinadoro.github.io/The-Pie/)
+
 
 ## LICENSE
-[MIT LICENSE](https://github.com/robinadoro/The-Pie/main/LICENCE)
+[MIT LICENSE](https://github.com/robinadoro/The-Pie/blob/main/LICENCE)
 
 ## AUTHOR
 [Robinson Idagiza](https://github.com/robinadoro)
