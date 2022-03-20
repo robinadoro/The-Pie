@@ -147,3 +147,10 @@ small{
     width: 30%;
     margin-left: 35%;   
 }
+#checkout{
+    margin-left: 0%;
+    background-color: #D31B27;
+    padding: 15px;
+    border-radius: 70px;
+    border: none;
+}
