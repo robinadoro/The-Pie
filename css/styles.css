@@ -173,5 +173,12 @@ small{
     text-align: center;
 
 }
+.delivery button{
+    margin-left: 0%;
+    background-color: #D31B27;
+    padding: 15px;
+    border-radius: 70px;
+    border: none; 
+}
 
 
