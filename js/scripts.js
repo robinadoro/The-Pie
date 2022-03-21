@@ -1,6 +1,6 @@
 // getting function from user form
 $document.ready(function(){
-    $("#checkout").submit(function(e){
+    $("#form-order").submit(function(e){
         function flavour(){
             var pizzaFlavour = document.getElementById("flavour").value;
             return parseInt(pizzaFlavour);
@@ -34,6 +34,10 @@ $document.ready(function(){
     // calculating total cost
     var totalCost=(userInput.newSize + userInput.newCrust + userInput.newToppings + userInput.newFlavour)*userInput.newNumber;
 
+    // method to reset form
+    $("#form-order").reset();
 
+    e.preventDefault();
+    
     })
 })
