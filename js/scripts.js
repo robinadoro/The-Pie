@@ -28,6 +28,8 @@ $document.ready(function(){
         this.newNumber= number;
     }
     
+    // new object to save user form data
+    var userInput = new UserOrder(flavour(), size(), crust(), toppings(), number());
 
 
     })
