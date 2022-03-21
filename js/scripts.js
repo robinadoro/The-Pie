@@ -31,6 +31,9 @@ $document.ready(function(){
     // new object to save user form data
     var userInput = new UserOrder(flavour(), size(), crust(), toppings(), number());
 
+    // calculating total cost
+    var totalCost=(userInput.newSize + userInput.newCrust + userInput.newToppings + userInput.newFlavour)*userInput.newNumber;
+
 
     })
 })
