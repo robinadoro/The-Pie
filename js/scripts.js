@@ -27,6 +27,7 @@ $document.ready(function(){
         this.newToppings= toppings;
         this.newNumber= number;
     }
+    
 
 
     })
