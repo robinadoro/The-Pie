@@ -1,6 +1,8 @@
 // getting function from user form
-$(document).ready(function() {    
+$(document).ready(function() {
+  let orders=[]
       $("button#checkout").click(function(event) {        
+        event.preventDefault();
         function flavour() {
           var pizzaFlavour = document.getElementById("flavour").value;
           return parseInt(pizzaFlavour);
@@ -43,11 +45,21 @@ $(document).ready(function() {
           userInput.newNumber;
     
         //alert for total cost of pizza
-        alert("Your charges for Pizza is Ksh." + totalCost);
-        // prompt("enter your email address");
-        // prompt("enter your phone number");
-        // prompt("enter your location");
-        // alert("Your pizza will be delivered");
+        orders.push(userInput)
+        document.getElementById("order-details").innerHTML=null
+        orders.forEach(order =>{
+          document.getElementById("order-details").innerHTML +=`
+          <div>Pizza Size Cost:${order.newSize}</div>
+          <div>Pizza Crust Cost:${order.newCrust}</div>
+          <div>Pizza Toppings Cost:${order.newToppings}</div>
+          <div>Pizza Flavour:${order.newFlavour}</div>
+          <div>Pizza Number:${order.newNumber}</div>
+          <div>Total Cost: ${totalCost}</div>
+          `
+
+        }) 
+      
+    
     
         // method to reset form
         $("button#checkout").reset();
