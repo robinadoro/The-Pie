@@ -56,6 +56,7 @@ $(document).ready(function() {
           <div>Pizza Number:${order.newNumber}</div>
           <div>Total Cost: ${totalCost}</div>
           `
+          alert("Your total cost is: " + totalCost );
 
         }) 
       
